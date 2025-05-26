@@ -22,3 +22,6 @@ print(c)
 # largest num from list
 a=[1,3,6]
 print(max(a))
+
+# smallest value
+print(min(a))
