@@ -1,8 +1,8 @@
-dictData={"name":"Sara", #key : value  pairs
-          "age":21,
-          "gender":"female"}
-print(dictData)
-print(dictData["age"]) #can access by key
+# dictData={"name":"Sara", #key : value  pairs
+#           "age":21,
+#           "gender":"female"}
+# print(dictData)
+# print(dictData["age"]) #can access by key
 
 # Iteration
 # printing all the key names
@@ -17,9 +17,9 @@ for x in dictData:
 for x in dictData.values():#iterates in its values
     print(x)
 
-# using item functions (for iterating in both key value)
-for x,y in dictData.items():
-    print(x,":",y)
+# # using item functions (for iterating in both key value)
+# for x,y in dictData.items():
+#     print(x,":",y)
 
 # dictionary function
 # get
