@@ -1,72 +1,72 @@
-# a=["Sara","John","Aaron","Nario","Zaie","Sara"]
-# print(a)
-# # Find length
-# print(len(a))
+a=["Sara","John","Aaron","Nario","Zaie","Sara"]
+print(a)
+# Find length
+print(len(a))
 
-# # # Ocurence of particular element
-# print(a.count("Sara"))
+# # Ocurence of particular element
+print(a.count("Sara"))
 
 # # add into list
-# a.append("Anne")
-# print(a)
+a.append("Anne")
+print(a)
 
-# # # add element ata specific location
-# a.insert (1,"Varon")
-# print(a)
+# # add element at a specific location
+a.insert (1,"Varon")
+print(a)
 
-# # to remove at particular index
-# a.pop(2)
-# print(a)
-# print(a.pop(3)) # the one which is removed that particular would printed
-# # to remove
-# a.remove("Sara")
-# print(a)
+# to remove at particular index
+a.pop(2)
+print(a)
+print(a.pop(3)) # the one which is removed that particular would printed
+# to remove
+a.remove("Sara")
+print(a)
 
-# # to create  a copy of list
-# b=a.copy()
-# print(b)
+# to create  a copy of list
+b=a.copy()
+print(b)
 
-# # to access an element
-# print(a.index("Sara"))
-# print(a[1])
+# to access an element
+print(a.index("Sara"))
+print(a[1])
 
-# # To extend a list
-# c=["Sabrina"]
-# a.extend(c)
-# print(a)
+# To extend a list
+c=["Sabrina"]
+a.extend(c)
+print(a)
 
-# # 
-# # a=[3]
-# # b=[1]
-# # c=a+b
-# # print(c)
 
-# # # sum
+a=[3]
+b=[1]
+c=a+b
+# print(c)
+
+# sum
 a=[2,1,4,2]
-# # c=sum(a)
-# # print("sum  of ",a,"is :",c)
-# # using for loop
-# for i in a:
-#     print(sum(a))
-#     break # mentioned it to print only once
+c=sum(a)
+print("sum  of ",a,"is :",c)
+# using for loop
+for i in a:
+    print(sum(a))
+    break # mentioned it to print only once
 
-# # another method
-# total=0
-# for i in a:
-#     total+=i
-# print(total)
+# another method
+total=0
+for i in a:
+    total+=i
+print(total)
 
-# # reverse without using fun reverse
-# a=a[::-1]
-# print(a)
+# reverse without using fun reverse
+a=a[::-1]
+print(a)
 
-# # largest n smalles num
-# print(max(a))
-# print(min(a))
+# largest n smalles num
+print(max(a))
+print(min(a))
 
-# # count occurence
-# # first method
-# # print(a.count(2))
+# count occurence
+# first method
+print(a.count(2))
 occur=0
 for i in a:
     if i==2:
@@ -97,3 +97,7 @@ print(a)
 # empty the list
 a.clear()
 print(a)
+
+# The list() Constructor
+thislist = list(("apple", "banana", "cherry")) # note the double round-brackets
+print(thislist)
