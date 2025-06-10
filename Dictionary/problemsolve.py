@@ -37,3 +37,27 @@ print("Key with highes value is:",max_value)
 d = {"a": 10, "b": 30, "c": 20}
 max_value = max(d.values())
 print("Maximum value is:", max_value)
+
+print(d["a"])
+
+# remove a key
+d.pop("a")
+print(d)
+
+# Count frequency of characters in a string
+text = "Banana"
+print(text)
+
+a = input("Enter the character you want to get its frequency in it: ")
+
+if len(a) != 1:
+    print("Please enter only one character.")
+else:
+    char = 0
+    for i in text:
+        if i == a:
+            char += 1
+    print(f"Frequency of '{a}' is : {char}")
+
+
+    
