@@ -12,7 +12,6 @@ for q in range(1,101,10):
     print(q)
 
 # Printing common multiples of 8  n 12
-
 for i in range(1,101):
     if i%8==0 & i%12==0:
         print(i)

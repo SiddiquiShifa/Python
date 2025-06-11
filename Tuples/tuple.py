@@ -1,6 +1,6 @@
 a="apple","mango","banana"
 print(type(a))
-
+print(a)
 b="kiwi"
 print(type(b)) #shows string 
 # how to make it tuple

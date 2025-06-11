@@ -1,8 +1,8 @@
-# dictData={"name":"Sara", #key : value  pairs
-#           "age":21,
-#           "gender":"female"}
-# print(dictData)
-# print(dictData["age"]) #can access by key
+dictData={"name":"Sara", #key : value  pairs
+          "age":21,
+          "gender":"female"}
+print(dictData)
+print(dictData["age"]) #can access by key
 
 # Iteration
 # printing all the key names
@@ -83,3 +83,10 @@ thisdict = {
 }
 thisdict.pop("model")
 print(thisdict)
+
+# nested
+employee={1:{"name":"Shifa","age":21},
+          2:{"name":"Siddiue","city":"Mumbai"}}
+print(employee)
+print(employee[1])
+print(employee[1]["age"])

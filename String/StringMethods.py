@@ -138,4 +138,4 @@ print()
 # u can find any word in given index range such as:
 a="bibidy bobdy boo"
 print(a.rfind('b',6,13))
-
+print("Here the b of rnage index in between 6 to 13 is printed not the last occurrence")

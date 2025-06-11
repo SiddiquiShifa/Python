@@ -55,7 +55,7 @@ while True:
     # if we want that user may stop this program then:
 
     repeat=input('Do you wanna stop this loop :')
-    if repeat=='yes' or repeat=="yes":
+    if repeat=='yes' or repeat=="Yes":
         print("Stopped")
         break
         

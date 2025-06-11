@@ -33,6 +33,3 @@ while i<len(a):
     i+=1
 # using short hand for loop
 [print (i) for i in a]
-
-a="Sara","John"
-print(i) for i in a
