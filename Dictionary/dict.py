@@ -18,8 +18,8 @@ for x in dictData.values():#iterates in its values
     print(x)
 
 # # using item functions (for iterating in both key value)
-# for x,y in dictData.items():
-#     print(x,":",y)
+for x,y in dictData.items():
+    print(x,":",y)
 
 # dictionary function
 # get
@@ -58,7 +58,7 @@ thisdict = {
 mydict = dict(thisdict)
 print(mydict)
 
-# setdefault
+print("\nsetdefault")
 thisdict = {
   "brand": "Ford",
   "model": "Mustang",

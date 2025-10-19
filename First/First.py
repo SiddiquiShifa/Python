@@ -1,28 +1,28 @@
-# variables datatypes typecasting input
+# # variables datatypes typecasting input
 
-print("Hello world")
-a=7
+# print("Hello world")
+# a=7
 
-print(type(a))
-print(a)
-b=4
-print(a+b)
+# print(type(a))
+# print(a)
+# b=4
+# print(a+b)
 
-Ad=input("Enter input")
-print(Ad)
+# Ad=input("Enter input")
+# print(Ad)
 
-# comment
-exp=eval(input("Enter any equation here:"))
-print(exp)
+# # comment
+# exp=eval(input("Enter any equation here:"))
+# print(exp)
 
-# write a program to swap two variables
-# method1
+# # write a program to swap two variables
+# # method1
 
 x=1
 y=2
-temp=x
-print(temp)
-y=temp
+# temp=x
+# print(temp)
+y=x
 print("value of y",y)
 
 # method 2
